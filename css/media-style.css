@@ -1,0 +1,357 @@
+/*#region media-1000px */
+@media only screen and (max-width: 993px) {
+  .navbar-collapse {
+    text-align: center !important;
+    background-color: #fff;
+    margin-top: 1.9rem;
+    border-bottom: skyblue 3px solid;
+  }
+
+  .navbar-collapse .nav-link {
+    font-size: 14px;
+    background: -webkit-linear-gradient(#ffb400, #000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+/*#endregion */
+
+/*#region media-768px */
+@media only screen and (max-width: 768px) {
+  .navbar-collapse {
+    text-align: center !important;
+    background-color: #fff;
+    margin-top: 1.9rem;
+    border-bottom: skyblue 3px solid;
+  }
+
+  .navbar-collapse .nav-link {
+    font-size: 14px;
+    background: -webkit-linear-gradient(#ffb400, #000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .services {
+    padding-top: 2rem;
+    padding-left: 2rem !important;
+  }
+
+  .services .row {
+    height: 4.4rem !important;
+    padding-bottom: 6rem !important;
+  }
+
+  #landing-page .brand-name {
+    font-size: 3rem;
+    margin-top: 4.5rem !important;
+    margin-left: 4.5rem !important;
+  }
+
+  #quote-section {
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    padding-bottom: 2rem;
+  }
+
+  #quote-section h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0 !important;
+  }
+
+  #quote-section a {
+    margin-top: 0 !important;
+    width: 10rem !important;
+    letter-spacing: 2px;
+  }
+
+  #construction-section h4 {
+    font-size: 1rem;
+  }
+
+  #construction-section .fas {
+    font-size: 1.5em;
+  }
+
+  #construction-section .d-flex .p-4 {
+    padding: 0.75rem !important;
+  }
+
+  #construction-section img {
+    min-height: 300px;
+    margin-top: 15px;
+  }
+
+  #plumbing-section img {
+    /* margin: 0; */
+    margin-bottom: 15px;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    position: relative;
+    background-size: cover;
+  }
+
+  #plumbing-section h1 {
+    padding-top: 0;
+    padding-bottom: 2rem !important;
+    margin-top: 2rem !important;
+  }
+
+  #plumbing-section h4 {
+    font-size: 1rem;
+  }
+
+  #plumbing-section .fas {
+    font-size: 1.5em;
+  }
+
+  #plumbing-section .d-flex .p-4 {
+    padding: 0.75rem !important;
+  }
+
+  #plumbing-section .d-flex .p-4 p {
+    font-size: 1rem;
+  }
+
+  #estate-section h1 {
+    font-size: 2.5rem;
+    padding-top: 15px;
+  }
+
+  #estate-section .flex-column {
+    padding-top: 1rem !important;
+    padding-left: 1rem !important;
+  }
+
+  #estate-section .d-flex .px-5 {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+
+  /*#region contact-page */
+  #contact-section {
+    min-height: 550px !important;
+  }
+
+  #contact-section .brand-name {
+    font-size: 2.5rem !important;
+    margin-top: 4.3rem !important;
+    margin-left: 4.3rem !important;
+  }
+
+  #contact-section .d-flex {
+    padding-top: 1.5rem !important;
+    padding-bottom: 3.5rem !important;
+  }
+  /*#endregion */
+
+  #service-icon h3 {
+    font-size: 1.2rem;
+  }
+
+  .info-header p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    word-spacing: 0 !important;
+    color: #d6b871;
+  }
+}
+/*#endregion */
+
+/*#region media-596px */
+@media only screen and (min-width: 446px) and (max-width: 596px) {
+  #landing-page {
+    min-height: 650px !important;
+  }
+
+  .dark-overlay {
+    min-height: 650px !important;
+  }
+
+  #landing-page .brand-name {
+    font-size: 2rem !important;
+  }
+
+  #landing-page a {
+    margin-top: 1rem;
+    width: 13.5rem;
+  }
+
+  #quote-section h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0 !important;
+  }
+
+  #quote-section a {
+    margin-top: 0 !important;
+    width: 10rem !important;
+    letter-spacing: 0px;
+    padding-left: 2px !important;
+  }
+
+  .services .fas {
+    font-size: 2rem;
+  }
+
+  #service-section .mb-sm-4 {
+    margin-bottom: 20px;
+  }
+
+  #estate-section h1 {
+    font-size: 2.5rem !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+
+  #estate-section h2 {
+    font-size: 2.5rem !important;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
+
+  #estate-section h2 {
+    text-shadow: 3px 3px 3px #333 !important;
+  }
+
+  #estate-section .flex-column {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
+
+  #estate-section .d-flex .px-5 {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
+  
+  #estate-section a {
+    font-size: 1rem !important;
+  }
+
+  .info-header p {
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+    word-spacing: 0 !important;
+    color: #d6b871;
+  }
+
+}
+/*#endregion */
+
+/*#region media-446px */
+@media only screen and (max-width: 446px) {
+  #landing-page {
+    min-height: 550px !important;
+  }
+
+  .dark-overlay {
+    min-height: 550px !important;
+  }
+
+  #landing-page .brand-name {
+    font-size: 1.75rem !important;
+    margin-top: 4rem !important;
+  }
+
+  #landing-page a {
+    margin-top: 0.5rem;
+    width: 13.5rem;
+  }
+
+  #landing-page p {
+    margin-left: 4rem;
+    margin-right: 1rem !important;
+    font-size: 1rem !important;
+  }
+
+  h2 {
+    font-size: 1.5rem !important;
+  }
+
+  h5 {
+    font-size: 1rem !important;
+  }
+
+  .services {
+    padding-left: 0 !important;
+  }
+
+  .services .fas {
+    font-size: 1.75rem;
+  }
+
+  #quote-section h1 {
+    font-size: 1rem;
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+    padding-left: 10px !important;
+  }
+
+  #quote-section a {
+    margin-top: 0 !important;
+    width: 8rem !important;
+    letter-spacing: 0px;
+    padding: 5px !important;
+    margin-left: 0 !important;
+  }
+
+  #contact-section .brand-name {
+    margin-top: 3.3rem !important;
+    margin-left: 3.3rem !important;
+  }
+
+  /* #about-section {
+    margin-top: 6.2rem !important;
+  } */
+
+  #about-section h1 {
+    font-size: 2rem !important;
+  }
+
+  #about-section p {
+    font-size: 1rem;
+  }
+
+  #service-icon h1 {
+    font-size: 2rem !important;
+  }
+
+  #service-section h1 {
+    font-size: 2rem !important;
+  }
+
+  #service-icon fa-3x {
+    font-size: 2em !important;
+  }
+
+  #service-section .mb-sm-4 {
+    margin-bottom: 20px;
+  }
+
+  #estate-section h2 {
+    text-shadow: 2px 2px 3px #333 !important;
+  }
+
+  .info-header p {
+    font-size: 0.75rem !important;
+    line-height: 1.2rem;
+    word-spacing: 0 !important;
+    color: #d6b871;
+    margin-left: 15px !important;
+    margin-right: 10px !important;
+  }
+
+  blockquote a {
+    color: #af8a17;
+    font-size: 0.75rem;
+  }
+
+  #main-footer a {
+    font-size: 0.75rem;
+  }
+}
+/*#endregion */

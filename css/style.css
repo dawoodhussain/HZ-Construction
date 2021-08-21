@@ -1,0 +1,610 @@
+/*#region Global style */
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #666;
+  background-color: #fff;
+  line-height: 1.7em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h2,
+h5 {
+  color: #333333;
+}
+
+.dark-overlay {
+  top: 80px;
+  left: 0;
+  width: 100%;
+  height: 620px;
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+}
+
+.services {
+  background-color: #ffb400;
+  padding-top: 140px;
+  color: #fff;
+}
+
+.services h2 {
+  padding-left: 50px;
+  margin-bottom: 40px;
+}
+
+.services .row {
+  height: 100px !important;
+  padding-left: 50px;
+}
+
+.services .fas {
+  font-size: 3rem;
+  padding: 0;
+  margin: 0;
+}
+
+.imggallery {
+  background-color: #333;
+}
+
+.ekko-lightbox .modal-dialog .modal-header {
+  padding: 0 10px !important;
+  border-bottom: none !important;
+}
+
+.ekko-lightbox .modal-dialog .modal-body {
+  padding: 0 !important;
+}
+/*#endregion */
+
+/*#region ************************ COMMON Header & Footer *******************************/
+/*#region Navbar */
+.navbar {
+  background: #fff;
+  height: 5rem !important;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "MonteCarlo", cursive;
+}
+
+.navbar .nav-item {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-right: 1.4rem;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+/*#endregion */
+
+/*#region footer */
+blockquote a {
+  color: #af8a17;
+  font-size: 1rem;
+}
+/*#endregion */
+/*#endregion */
+
+/*#region ************************ LANDING PAGE *******************************/
+/*#region header-section */
+#landing-page {
+  background: url("../img/home-bg.jpg");
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px !important;
+  background-color: #000;
+}
+
+#landing-page .brand-name {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-top: 8rem;
+  margin-left: 5rem;
+  position: relative;
+  border-left: 0.6rem solid #ffb400;
+  line-height: 1.1em;
+  font-family: "Rubik", sans-serif !important;
+  -webkit-animation: colorchange 20s infinite alternate;
+  animation: colorchange 20s infinite alternate;
+}
+
+#landing-page p {
+  font-size: 1.1rem;
+  margin-left: 4rem;
+  margin-right: 5rem;
+  position: relative;
+  line-height: 1.6em;
+  font-weight: unset;
+}
+
+#landing-page i {
+  color: white;
+  text-shadow: 2px 2px 4px #ff005b;
+}
+
+#landing-page a {
+  font-size: 1rem;
+  font-weight: 300 !important;
+  margin-top: 3rem;
+  margin-left: 5rem;
+  margin-bottom: 1.25rem;
+  padding: 1.25rem;
+  position: relative;
+  background-color: #ffb400;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 0%;
+  width: 15.5rem;
+  letter-spacing: 3px;
+  transition: 0.5s;
+}
+
+#landing-page a:after {
+  content: "»";
+  position: absolute;
+  opacity: 0;
+  top: 5px;
+  right: -20px;
+  transition: 0.5s;
+  font-size: 2rem;
+}
+
+#landing-page a:hover {
+  padding-right: 14px;
+  padding-left: 8px;
+}
+
+#landing-page a:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+@-webkit-keyframes colorchange {
+  0% {
+    color: #fff;
+  }
+
+  50% {
+    text-shadow: 2px 2px 20px #ff005b;
+  }
+
+  100% {
+    text-shadow: 2px 2px 20px #1abc9c;
+  }
+}
+
+#estate-section hr {
+  border: 3px solid #ffb400;
+  background-color: #ffb400;
+  width: 10%;
+  text-align: left;
+  margin-left: 0;
+}
+/*#endregion */
+
+/*#region quote-section */
+#quote-section h1 {
+  color: #333;
+  font-family: "Rubik", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.2em;
+}
+
+#quote-section a {
+  color: #ffb400 !important;
+  border-width: 4px !important;
+  border-radius: 0px;
+  letter-spacing: 4px;
+  font-size: 1rem;
+  font-family: "Rubik", Helvetica, Arial, Lucida, sans-serif !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  border: 5px solid #ffb400;
+  width: 12.5rem;
+}
+
+#quote-section a:after {
+  content: "»";
+  position: absolute;
+  opacity: 0;
+  top: 10px;
+  right: -10px;
+  transition: 0.5s;
+  font-size: 1.5rem;
+}
+
+#quote-section a:hover {
+  color: #fff !important;
+  background-color: #ffb400;
+  transition: 0.5s;
+  position: relative;
+  padding-right: 14px;
+  padding-left: 8px !important;
+}
+
+#quote-section a:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+/*#endregion */
+
+/*#region plumbing-section */
+#plumbing-section img {
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #000;
+  display: block;
+  min-width: 80%;
+  height: 500px;
+}
+
+#plumbing-section h1,
+#estate-section h1 {
+  font-family: "Rubik", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.2em;
+  color: #333333;
+  text-shadow: 2px 2px 4px #f7f7f7;
+}
+
+.plumbing .fas {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.plumbing a {
+  color: #333 !important;
+  border-width: 4px !important;
+  border-radius: 0px;
+  letter-spacing: 4px;
+  font-size: 14px;
+  font-family: "Rubik", Helvetica, Arial, Lucida, sans-serif !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  border: 5px solid #333333;
+  width: 250px;
+}
+
+.plumbing .fa-arrow-right {
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.plumbing a:hover {
+  color: #fff !important;
+  background-color: #333;
+}
+
+.plumbing a:hover .fa-arrow-right {
+  color: #fff !important;
+  background-color: #333;
+  transition: 0.1s;
+}
+/*#endregion */
+
+/*#region construction-section */
+#construction-section {
+  padding: 10px;
+  background-color: #333;
+}
+
+#construction-section h1 {
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#construction-section img {
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #000;
+}
+
+#construction-section .content {
+  color: #fff;
+}
+
+.content .fas {
+  background-color: #ffb400;
+  color: #333;
+  padding: 5px;
+}
+
+.content a {
+  color: #fff !important;
+  border-width: 4px !important;
+  border-radius: 0px;
+  letter-spacing: 4px;
+  font-size: 14px;
+  font-family: "Rubik", Helvetica, Arial, Lucida, sans-serif !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  border: 5px solid #ffb400;
+  width: 250px;
+}
+
+.content .fa-arrow-right {
+  background-color: #333;
+  color: #fff;
+}
+
+.content a:hover {
+  color: #333 !important;
+  background-color: #ffb400;
+}
+
+.content a:hover .fa-arrow-right {
+  color: #333 !important;
+  background-color: #ffb400;
+  transition: 0.1s;
+}
+/*#endregion */
+
+/*#region estate-section */
+#estate-section {
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+#estate-section img {
+  background-size: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/*#endregion */
+
+/*#region interior-design-section */
+#interior-design-section {
+  position: relative;
+  background: url("../img/interior-design.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  color: white;
+}
+
+#interior-design-section .light-overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(50, 146, 166, 0.3);
+}
+
+.fa-play:hover {
+  color: orangered !important;
+}
+
+#interior-design-section h2 {
+  background: linear-gradient(to right, #333 0%, #ff005b 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Poppins", sans-serif;
+}
+
+#interior-design-section h1,
+.fa-play,
+.ribbon {
+  -webkit-animation: dcolorchange 20s infinite alternate;
+}
+
+@-webkit-keyframes dcolorchange {
+  0% {
+    color: #fff;
+  }
+
+  20% {
+    text-shadow: 2px 2px 20px #00ff7f;
+  }
+
+  50% {
+    text-shadow: 2px 2px 20px #ff005b;
+  }
+
+  80% {
+    text-shadow: 2px 2px 20px #00ffff;
+  }
+
+  100% {
+    text-shadow: 2px 2px 20px #7cfc00;
+  }
+}
+/*#endregion */
+/*#endregion */
+
+/*#region ************************ CONTACT US *******************************/
+/*#region contact-page */
+#contact-page {
+  background: url("../img/contact-bg.jpg");
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px !important;
+  background-color: #000;
+}
+
+#contact-page .brand-name {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-top: 8rem;
+  margin-left: 5rem;
+  position: relative;
+  border-left: 10px solid #ffb400;
+  line-height: 1.1em;
+  font-family: "Rubik", sans-serif !important;
+}
+
+#contact-page .transparent-input {
+  background-color: rgba(255, 255, 255, 0.6);
+  border: none;
+  color: #fff;
+}
+
+#contact-section input:focus {
+  border-color: rgba(126, 239, 104, 0.3);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset,
+    0 0 8px rgba(126, 239, 104, 0.6);
+  outline: 0 none;
+}
+
+#contact-section textarea:focus {
+  border-color: rgba(126, 239, 104, 0.3);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset,
+    0 0 8px rgba(126, 239, 104, 0.6);
+  outline: 0 none;
+}
+
+.services .fab {
+  color: #4267b2;
+}
+/*#endregion */
+/*#endregion */
+
+/*#region ************************ ABOUT US PAGE *******************************/
+/*#region about-section */
+#about-section {
+  color: #333;
+  margin-top: 6.2rem;
+}
+
+.info-header {
+  background: url("../img/about-bg.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  min-height: 300px;
+  color: #fff;
+}
+
+.info-header p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  word-spacing: 1px;
+  color: #d6b871;
+}
+
+.info-overlay {
+  top: 100px;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+}
+
+#about-section img {
+  margin-top: -50px;
+}
+
+#about-section .card {
+  box-shadow: 3px 3px 3px #333;
+}
+
+#about-section .card:hover {
+  background: #3292a6;
+  color: #fff;
+}
+
+#about-section .fab {
+  color: #fff;
+}
+
+#about-section h2 {
+  text-transform: uppercase;
+  background: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  padding-top: 13px;
+}
+
+#about-section .brand-name {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  position: relative;
+  border-left: 10px solid #ffb400;
+  line-height: 1.1em;
+  font-family: "Rubik", sans-serif !important;
+}
+
+#about-section .lead {
+  margin-left: 80px;
+}
+
+#testimonials p {
+  font-size: 1rem;
+  font-family: cursive;
+}
+
+#testimonials footer {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #ff005b !important;
+}
+
+/*#endregion */
+/*#endregion */
+
+/*#region ************************ SERVICES PAGE *******************************/
+/*#region service-icon */
+#service-icon {
+  background-color: #ffb400;
+  color: #333;
+  margin-top: 6.25rem;
+}
+
+/*#endregion */
+/*#endregion */
+
+/*#region ************************ ESTATE PAGE *******************************/
+#estate-section {
+  color: #333;
+  margin-top: 6.25rem;
+}
+
+#estate-section .bg-warning {
+  background: rgba(255, 180, 0, 0.7) !important;
+  border-radius: 7rem;
+  border: 5px rgba(255, 180, 0, 0.7);
+}
+
+#estate-section h1 {
+    color: #ff005b;
+  }
+
+#estate-section h2 {
+  text-shadow: 5px 5px 3px #333;
+}
+
+#estate-section .badge {
+  padding: 10px !important;
+  letter-spacing: 2px !important;
+}
+
+.table-header {
+    color: #333;
+}
+
+#estate-section .card {
+    box-shadow: 0px 0px 3px 3px #333; /*any color you want*/
+}
+
+/*#endregion */
